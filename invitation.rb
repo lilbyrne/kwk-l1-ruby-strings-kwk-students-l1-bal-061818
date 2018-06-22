@@ -12,3 +12,8 @@ time = gets.chomp
 
 puts "What is the host's name?"
 host_name = gets.chomp
+
+def invitation
+  puts "Dear #{guest_name}"
+  puts "You are cordially invited to the #{party_name} on #{date} at #{time}. Please RSVP
+end

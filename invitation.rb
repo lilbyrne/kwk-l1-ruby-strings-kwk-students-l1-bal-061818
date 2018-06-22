@@ -1,3 +1,14 @@
-# Code your prompts here!
+puts "Hi, you've been invited to a party! What is your name?"
+guest_name = gets.chomp.capitalize
 
-# Try starting out with puts'ing a string.
+puts "What do you want to call your party?"
+party_name = gets.chomp
+
+puts "When is your party?"
+date = gets.chomp
+
+puts "What time does it start?"
+time = gets.chomp
+
+puts "What is the host's name?"
+host_name = gets.chomp.capitalize

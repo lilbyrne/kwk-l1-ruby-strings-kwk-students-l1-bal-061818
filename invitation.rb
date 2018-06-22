@@ -20,4 +20,3 @@ def invitation
   puts "#{host_name}"
 end 
 invitation
-end

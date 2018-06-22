@@ -11,4 +11,4 @@ puts "What time does it start?"
 time = gets.chomp
 
 puts "What is the host's name?"
-host_name = gets.chomp.capitalize
+host_name = gets.chomp
